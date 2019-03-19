@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+  background-color: #5f80b5;
+  color: #051d42;
+  font-family: sans-serif;
+}
+
+form > input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+form > button {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #486493;
+  border: none;
+}
+
+form > button:hover {
+  cursor: pointer;
+  background-color: #486493;
+}
+
+#letters {
+  margin: 20px auto 0;
+  width: 800px;
+}
+
+.letter {
+  display: inline-block;
+  text-align: center;
+  background-color: #486493;
+  vertical-align: bottom;
+}
+
+.new {
+  font-size: 1.5em;
+  color: #ffffff;
+}
